@@ -1,0 +1,38 @@
+# Default location to where get teleported when player does /start
+start-location:
+  ==: org.bukkit.Location
+  world: world
+  x: 0.0
+  y: 70.0
+  z: 0.0
+  pitch: 0.0
+  yaw: 0.0
+
+# MobSpawnPauseSeconds -> The seconds of pause between waves
+# WaveDifficultyIncreaseAfter -> After how many secodns the difficulty should increase
+# MobDistanceSpawning -> The radius of blocks within the mob should be spawned
+MobSpawnPauseSeconds: 8
+MobDistanceSpawning: 5
+WaveDifficultyIncreaseAfter: 30
+
+# Database
+databaseHost: localhost
+databasePort: 3306
+databaseName: minecraft
+databaseUsername: root
+databasePassword: password
+
+# Difficulties
+difficulties:
+  1:
+    mobsSpawned: 1
+    mobs:
+      1:
+        type: ZOMBIE
+  2:
+    mobsSpawned: 1
+    mobs:
+      1:
+        type: SKELETON
+      2:
+        type: SPIDER

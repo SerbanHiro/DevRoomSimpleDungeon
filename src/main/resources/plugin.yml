@@ -1,0 +1,13 @@
+name: DevRoomSimpleDungeon
+version: '${project.version}'
+main: me.serbob.devroomsimpledungeon.DevRoomSimpleDungeon
+api-version: 1.18
+authors: [ Serbob ]
+description: Trial plugin for devroom.
+commands:
+  start:
+    description: Go in dungeon
+  leave:
+    description: Leave dungeon
+  stats:
+    description: Dungeon stats
